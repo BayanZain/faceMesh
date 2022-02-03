@@ -49,7 +49,7 @@ public class MainActivity2 extends AppCompatActivity {
             System.loadLibrary("opencv_java3");
         } catch (java.lang.UnsatisfiedLinkError e) {
             // Some example apps (e.g. template matching) require OpenCV 4.
-            System.loadLibrary("opencv_java");
+            //System.loadLibrary("opencv_java");
         }
     }
 
